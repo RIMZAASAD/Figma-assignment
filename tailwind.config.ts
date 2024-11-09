@@ -9,9 +9,12 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      
       },
+      fontFamily: {
+        rye: ["Rye", "cursive"],
+       libre:["Libre Bodoni", "serif"]
+      }
     },
   },
   plugins: [],
